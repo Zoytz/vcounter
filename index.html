@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Vcounter</title>
+</head>
+<body>
+  <div class="page">
+    <form class="form" name="form" novalidate>
+      <h2 class="form__title">Посчитаем?</h2>
+      <label for="volume" class="form__label">
+        Кол-во
+        <input type="number" class="form__input" name="volume" id="volume" maxlength="5" required>
+      </label>
+      <label for="proc" class="form__label">
+        Процент
+        <input type="number" class="form__input" name="proc" id="proc" maxlength="5" required>
+      </label>
+      <button type="submit" class="form__button" value="Посчитать" aria-label="Кнопка отправки формы">Посчитать</button>
+    </form>
+</div>
+<script src="index.js"></script>  
+</body>
+</html>
