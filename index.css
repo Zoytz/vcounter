@@ -18,6 +18,10 @@
   gap: 20px;
 }
 
+.title {
+  margin: 0 auto;
+}
+
 .form__title {
   margin: 0;
   margin-top: 20px;
