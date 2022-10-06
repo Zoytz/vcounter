@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 .page {
   margin: 0;
   padding: 0;
@@ -20,11 +24,21 @@
 
 .title {
   margin: 0 auto;
+  padding: 0 10px 0;
+  text-align: center;
 }
 
 .form__title {
-  margin: 0;
-  margin-top: 20px;
+  font-size: 20px;
+  margin: 10px 0 10px;
+  height: 22px;
+  line-height: 20px;
+  opacity: 0;
+  transition: opacity .2s linear;
+}
+
+.form__title_type_visible {
+  opacity: 1;
 }
 
 .form__label {
@@ -33,6 +47,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+  font-weight: bold;
 }
 
 .form__label:last-of-type {
@@ -42,7 +57,7 @@
 .form__input {
   padding: 10px;
   max-width: 50px;
-  border: 1px solid #000;
+  border: 2px solid #000;
   border-radius: 5px;
 }
 
@@ -52,4 +67,7 @@
   border-radius: 5px;
   color: #fff;
   width: 80%;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
 }
